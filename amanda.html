@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<title>Amanda Rogers is my GF</title>
+	<style>
+		body {
+            font-size: 25px;
+            color: red; /* change the text color here */
+			background-image: url('heart.jpg'); /* replace 'heart.jpg' with your own heart image */
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+            background-color: #ADD8E6; /* light blue color */;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 40vh; /* adjust this value to center the text vertically */
+		}
+        #gif {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			z-index: -1;
+			animation: loop 5s infinite;
+		}
+		@keyframes loop {
+			0% { opacity: 0; }
+			25% { opacity: 1; }
+			75% { opacity: 1; }
+			100% { opacity: 0; }
+		}
+	</style>
+</head>
+<body>
+	<h1>Amanda Rogers is my GF</h1>
+    <img id="gif" src="giphy.gif" alt="Romantic GIF">
+</body>
+</html>
